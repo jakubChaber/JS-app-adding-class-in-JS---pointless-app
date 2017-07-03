@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+}
+
+#topStripe {
+    background: #555 none repeat scroll 0 0;
+    color: #eee;
+    display: block;
+	text-align:left;
+ padding: 10px 5px;
+	
+}
+
+#top {
+    background-color: #f77f00;
+    margin: 0 0 15px;
+    padding: 15px 0;
+    text-align: center;
+}
+#top img {
+    display: inline-block;
+    height: auto;
+    max-width: 80vw;
+    width: 500px;
+}
+header {
+    margin: 0 0 80px 0;
+}
+#odp > figure {
+    background-color: #fce34b;
+
+    color: #000;
+    display: block;
+    float: left;
+    height: 100px;
+    margin: 5px;
+    overflow-wrap: break-word;
+    padding: 25px;
+    position: relative;
+    transform: rotate(3deg);
+    transition: all 0.2s linear 0s;
+    width: 150px;
+}
+#odp > figure:hover{
+	transform:rotate(0deg);
+    box-shadow: -1px 1px 3px #000;
+}
+.ins {
+    position: absolute;
+}
+
+figure::after {
+    background-image: url("pinezka.png");
+    background-repeat: no-repeat;
+    background-size: 50px auto;
+    content: "";
+    height: 60px;
+    left: calc(50% - 29px);
+    position: absolute;
+    top: -36px;
+    width: 52px;
+}
+
+
+
+
+textarea {
+    border: 5px solid #f77f00;
+    border-radius: 5px;
+    color: #777;
+    display: block;
+    float: none;
+    font-size: 150%;
+    margin: 0 auto;
+    width: 50%;
+	padding: 5px;
+}
+.buttons {
+    margin: 0 auto;
+	width:90px;
+}
+
+
+
+.buttons button {
+    background-color:#F77F00;
+    border: medium none;
+    border-radius: 50%;
+    color: white;
+    float: left;
+    font-size: 1rem;
+    height: 43px;
+    margin: 0 1px;
+    padding: 1px;
+    width: 43px;
+	cursor:pointer;
+}
+.buttons button:hover {
+    background-color:#777;
+	}
